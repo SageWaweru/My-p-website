@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .header a{
+    font-size:20px;
+    color: rgb(101, 63, 5);
+  }
+  .header hr{
+    height: 3px;
+    background-color: rgb(101, 63, 5);
+  }
+  .navbar{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-b{
+  background-color:rgb(254 219 184);
+  height: 84vh;
+}
+  .card{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 30px;
+   height: 80vh;
+   margin-left: 15px;
+   margin-right: 15px;
+   padding-top: 80px;
+   padding-left:100px;
+   padding-right: 100px;
+   position: relative;
+  
+  }
+  
+
+.about:nth-child(1){
+  background-color: rgb(101, 63, 5);
+  width: 300px;
+
+
+}
+ 
+.about:nth-child(2){
+  background-color: white;
+  width: 700px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about:nth-child(2) h1{
+  position: relative;
+   margin-left: 240px;
+   margin-bottom: 20px;
+   margin-top: 70px;
+   font-size: 48px;
+   font-weight: 400;
+}
+
+.about:nth-child(2) hr{
+  height:7px;
+  width: 100px;
+  margin-left: 290px;
+  background-color: rgb(101, 63, 5);
+  margin-bottom: 20px;
+}
+.about:nth-child(2) p{
+  margin-left: 92px;
+  font-size: 20px;
+}
+.f-header{
+  padding: 10px 0;
+  box-sizing: border-box;
+  background-color: rgb(81, 50, 5);
+  border: 1.5px solid rgb(101, 63, 5);
+  width: 77%;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  margin-left: 32px;
+  border-radius: 5px;
+  line-height: 2;
+  font-size: 24px;
+}
+
+.f-header h1{
+  color: rgb(254 219 184);
+  margin-left: 300px;
+}
+
+.fieldset{
+  background-color: rgb(254 219 184);
+  width: 970px;
+  -moz-border-radius:10px;
+  border-radius: 10px;
+  -webkit-border-radius:10px;
+  margin-left: 30px;
+}
+.name{
+  padding-top: 25px;
+}
+.fieldset label{
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(81, 50, 5);
+  margin-left: 25px;
+}
+
+.fieldset input{
+  position: relative;
+  padding: 10px 15px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  border: 1.5px solid rgb(101, 63, 5);
+  width: 85%;
+  display: block;
+  box-sizing: border-box;
+  border-radius: 60px;
+  line-height: 3;
+  margin-left: 30px;
+  
+}
+
+.fieldset textarea{
+  border: 1.5px solid rgb(101, 63, 5);
+  margin-left: 40px;
+  margin-top: 5px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+
