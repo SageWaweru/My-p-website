@@ -16,6 +16,10 @@
   background-color: rgb(101, 63, 5);
 }
 
+a:hover{
+  color:#9E5F00 ;
+  text-decoration: underline;
+}
 .navbar {
   height: 15vh;
   width: 100%;
