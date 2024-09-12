@@ -6,6 +6,15 @@
   list-style: none;
 }
 
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px solid  rgb(101, 63, 5);
+}
+body{
+  display: flex;
+  flex-wrap: wrap;
+}
 .header a {
   font-size: 1.25em;
   color: rgb(101, 63, 5);
@@ -90,35 +99,34 @@ a:hover{
 }
 
 .f-header {
+  display: flex;
   padding: 0.625em 0;
   box-sizing: border-box;
   background-color: rgb(81, 50, 5);
   border: 0.09375em solid rgb(101, 63, 5);
-  width: 77%;
-  margin-top: 0.625em;
-  margin-bottom: 0.25em;
-  margin-left: 1.25em;
+  width: 72%;
+  margin-top: 0.25em;
+  margin-bottom: 0.15em;
+  margin-left: 12.8em;
   border-radius: 0.3125em;
-  line-height: 2;
-  font-size: 1.5em;
+  line-height: 1;
+  font-size: 1em;
 }
 
 .f-header h1 {
   color: rgb(254 219 184);
-  margin-left: 6.875em;
+  margin-left:10em;
 }
 
 .fieldset {
+  display: flex;
   background-color: rgb(254 219 184);
-  width: 60.625em;
-  -moz-border-radius: 0.625em;
+  width: 72%;
+  /* width: 4.625em; */
+  /* -moz-border-radius: 0.625em; */
   border-radius: 0.625em;
-  -webkit-border-radius: 0.625em;
-  margin-left: 1.875em;
-}
-
-.name {
-  padding-top: 1.5625em;
+  /* -webkit-border-radius: 0.625em; */
+  margin-left: 12.875em;
 }
 
 .fieldset label {
@@ -131,19 +139,19 @@ a:hover{
 .fieldset input {
   position: relative;
   padding: 0.625em 0.9375em;
-  margin-top: 0.3125em;
-  margin-bottom: 0.5em;
+  /* margin-top: 0.3125em; */
+  /* margin-bottom: 0.01em; */
   border: 0.09375em solid rgb(101, 63, 5);
-  width: 85%;
+  width: 100%;
   display: block;
   box-sizing: border-box;
   border-radius: 3.75em;
-  line-height: 3;
+  line-height:1.3;
   margin-left: 1.875em;
 }
 
 .fieldset textarea {
-  border: 0.09375em solid rgb(101, 63, 5);
+  /* border: 0.09375em solid rgb(101, 63, 5); */
   margin-left: 2.5em;
   margin-top: 0.3125em;
   border-radius: 0.9375em;
@@ -243,3 +251,113 @@ a:hover{
   padding-left: 3.75em;
 }
 
+.a-header {
+  color: rgb(81, 50, 5);
+  font-size: 1.2em;
+  margin-left: 3.125em;
+  margin-top:1em ;
+  margin-bottom: 0.625em;
+}
+
+.a-header hr {
+  width: 5.125em;
+  height: 0.125em;
+  background-color: rgb(81, 50, 5);
+  margin-left: 0.625em;
+  margin-bottom: 0.25em;
+}
+
+.row{
+  display: flex;
+  align-content: center;
+}
+
+.card-body-2{
+  margin-left: 5rem;
+  margin-top: 2rem;
+  font-size:0.75em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.a-header2 {
+  color: rgb(81, 50, 5);
+  font-size: 1.2625em;
+  margin-left: 3.125em;
+  margin-top:1em ;
+  margin-bottom: 0.625em;
+}
+
+.a-header2 hr{
+  width: 3.825em;
+  height: 0.125em;
+  background-color: rgb(81, 50, 5);
+  margin-left: 0.625em;
+  margin-bottom: 0.25em;
+}
+
+.content{
+  font-size:1.rem;
+}
+
+.column-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.875em;
+  margin-left: 0.01em;
+  margin-right: 2.5em;
+  padding-top: 2.5em;
+  height: 21.875em;
+  background-color: bisque;
+}
+
+.column-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.875em;
+  margin-right: 2.5em;
+  margin-top:1em;
+  background-color: bisque;
+}
+
+.left-3 h2 {
+  color: rgb(81, 50, 5);
+  padding-left: 1.5em;
+  font-size: 1.875em;
+  padding-bottom: 0.3125em;
+  padding-top:0.5em;
+}
+
+.left-3 h3{
+color:rgb(81, 50, 5) ;
+font-size: 1.575em;
+padding-left: 2.125em;
+padding-bottom: 0.3125em;
+}
+
+.left-3 p {
+  color: rgb(81, 50, 5);
+  padding-left: 3.125em;
+  font-size: 1.1875em;
+}
+
+.right-3{
+ 
+}
+
+.right-4 h3{
+color:rgb(81, 50, 5) ;
+font-size: 1.575em;
+padding-left: 0.1em;
+padding-bottom: 0.3125em;
+}
+
+.right-4 p {
+  color: rgb(81, 50, 5);
+  padding-left: 0.1em;
+  font-size: 1.1875em;
+}
+
+.left-4 {
+  padding-left: 2.25em;
+}
